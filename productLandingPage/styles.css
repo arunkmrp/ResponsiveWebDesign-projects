@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  #header-img {
+    height: 50px;
+  }
+  
+  #nav-bar {
+    margin-right: 20px;
+  }
+  
+  #nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #hero {
+    background-color: #45e64b;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0 50px;
+    margin-top: 80px; 
+  }
+  
+  #hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #form input[type="email"] {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  #form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #features {
+    padding: 50px 0;
+  }
+  
+  .grid {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    background-color: #45e64b;
+    color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  .desc h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .desc p {
+    font-size: 18px;
+  }
+  
+  #how-it-works {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+    width:100%;
+  }
+  
+  #pricing {
+    padding: 50px 0;
+  }
+  
+  .product {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .level {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .product ol {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .product ol li {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #45e64b;
+    color:black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  footer span {
+    display: block;
+  }
+  
+  
+  @media (max-width: 400px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+    }
+  }
+  
+  .logo > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+  }
+  
+  nav {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+}
+  @media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
+  
+  
+  @media (max-width: 650px) {
+    #hero {
+      margin-top: 120px;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+  }
+  
+  
+  @media (max-width: 550px) {
+    #features .desc {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    #features {
+      margin-top: 0;
+    }
+  }
+  
+  
+  @media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  #how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
