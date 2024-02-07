@@ -1,0 +1,96 @@
+/* Custom Styles for Tribute Page */
+
+/* Resetting default browser styles */
+html {
+    font-size: 10px; /* Base font size for easier rem calculations */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem; /* 16px */
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem; /* 40px */
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem; /* 35px */
+        line-height: 1.2;
+    }
+}
+
+h2 {
+    font-size: 3.25rem; /* 32.5px */
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #004080;
+}
+
+#main {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#img-caption {
+    font-style: italic;
+    color: #666;
+    margin: 10px auto;
+    max-width: 80%;
+}
+
+#headline {
+    margin: 40px auto;
+    font-size: 2.5rem; /* 25px */
+    color: #444;
+}
+
+ul {
+    max-width: 80%;
+    margin: 0 auto 40px auto;
+    text-align: left;
+}
+
+li {
+    margin: 16px 0;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 80%;
+    margin: 0 auto 40px auto;
+    text-align: left;
+    border-left: 4px solid #0066cc;
+    padding-left: 12px;
+}
+
